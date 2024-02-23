@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Img/html-5.ico" type="image/ico">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>mi primera Imagen</h1>
+    <img src="./Img/capitan-america.jpg" alt="capitan-america" style="width: 500px;">
+
+    <h1>Incluyendo Zonas</h1>
+
+    <img src="./Img/capitan-america-2.jpg" usemap="#mapa_zonas" style="width: 500px;" />
+
+    <map name="mapa_zonas">
+        <area shape="rect" coords="20,25,84,113" href="https://marveldatabase.fandom.com/es/wiki/Capit%C3%A1n_Am%C3%A9rica" target="_blank"/>
+        <area shape="polygon" coords="90,25,162,26,163,96,89,25,90,24" href="triangulo.html" />
+        <area shape="circle" coords="130,114,29" href="circulo.html" />
+        <area shape="rect" coords="19,156,170,211" href="mailto:rectangulo@direccion.com" />
+        <area shape="default" nohref="nohref" />
+    </map>
+
+    <h1>Etiqueta Object - video</h1>
+    
+    <object data="./Video/video.mp4" type="video/mp4" ></object>
+
+    <h1>Etiqueta Object - Imagen</h1>
+
+    <object data="./Img/img1.jpg" width="300" ></object>
+
+    
+
+</body>
+</html>
